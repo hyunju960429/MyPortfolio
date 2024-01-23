@@ -616,6 +616,7 @@ wbs.forEach((wb,index)=>{
     let site9 = document.querySelector('.site9');
     let site10 = document.querySelector('.site10');
     let site11 = document.querySelector('.site11');
+    let site12 = document.querySelector('.site12');
     
     sites.forEach((site)=>{
       site.classList.remove('active');
@@ -664,6 +665,10 @@ wbs.forEach((wb,index)=>{
 
       case 10:
         site11.classList.add("active");
+      break;
+
+      case 11:
+        site12.classList.add("active");
       break;
     }
 
