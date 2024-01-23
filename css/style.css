@@ -1560,6 +1560,7 @@ li {
     font-size: 24px;
     font-weight: 300;
     font-family: 'Noto Sans KR', sans-serif;
+    pointer-event: none;
 }
 
 
