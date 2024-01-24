@@ -1116,7 +1116,20 @@ li {
 .site_desc {
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 26px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+}
+.tool {
+    font-size: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: var(--sub-colorB);
+}
+.tool b {
+    color: var(--title-font-color);
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 1.2;
 }
 .s_right .button {
     display: inline-block;
