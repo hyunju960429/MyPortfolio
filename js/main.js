@@ -504,7 +504,7 @@ let executed = false;
 function animateSkills(){
     document.querySelectorAll('.skill-per').forEach((perElement)=>{
         gsap.to(perElement,{
-            duration: 1,
+            duration: 1.5,
             width: perElement.getAttribute('per') + "%",
             onUpdate:function(){
                 perElement.setAttribute('per', Math.ceil(this.progress() * parseInt(perElement.style.width)) + "%");
