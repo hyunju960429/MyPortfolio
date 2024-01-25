@@ -111,6 +111,7 @@ li {
 .notice {
     position: fixed;
     display: flex;
+    width: 350px;
     flex-direction: column;
     top: 10%;
     left: 15%;
