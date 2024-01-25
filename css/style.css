@@ -1017,7 +1017,7 @@ li {
 }
 .wb {
     display: inline-block;
-    font-size: 44px;
+    font-size: 42px;
     background-color: rgba(255,255,255,.8);
     border-radius: 73px;
     padding: 5px 28px;
@@ -1304,6 +1304,22 @@ li {
     transition: 0.8s;
 }
 .site10 .site_imgWrap .sitehover:hover {
+    background-position: bottom;
+}
+
+
+.site13 .site_imgWrap .sitehover {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 600px;
+    height: 100%;
+    background: url(../img/airplane.png) no-repeat;
+    background-size: cover;
+    background-position: top;
+    transition: 0.8s;
+}
+.site13 .site_imgWrap .sitehover:hover {
     background-position: bottom;
 }
 
