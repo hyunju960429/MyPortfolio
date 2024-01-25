@@ -92,6 +92,20 @@ document.querySelector('.close').addEventListener('click',function(e){
 })
 
 
+//spline
+let spline = document.querySelector('.spline');
+let tl9 = gsap.timeline({
+  scrollTrigger: {
+    trigger: ".page7",
+    start: "top center",
+    scrub: 2,
+    markers: true
+  }
+});
+
+tl9.to(spline,{xPercent : -100, autoAlpha:0,})
+
+
 //menu 이동
 let navs = document.querySelectorAll(".menu li a");
 navs.forEach((element, index) => {
