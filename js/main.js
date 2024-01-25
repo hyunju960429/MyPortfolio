@@ -99,7 +99,6 @@ let tl9 = gsap.timeline({
     trigger: ".page7",
     start: "top center",
     scrub: 2,
-    markers: true
   }
 });
 
