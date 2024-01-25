@@ -999,6 +999,18 @@ li {
     -webkit-text-stroke: none;
 }
 
+/* spline */
+.spline {
+    position: fixed;
+    z-index: 100;
+    top: 5%;
+    left: -2%;
+    width: 500px;
+    height: 600px;
+    /* display: none; */
+    /* pointer-events: none; */
+}
+
 /* page7 */
 .container7 {
     position: relative;
